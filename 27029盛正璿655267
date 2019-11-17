@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float c = 0;
+    cout << "攝氏溫度為";
+    cin >> c;
+
+    float f = ((c * 9) / 5) + 32;
+
+    cout << "華氏溫度為" << f << "度F";
+}
